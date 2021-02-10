@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 
 // Create new items and send them to DB
 router.post('/api/burgers', (req, res) => {
-    burger.insertOne(['burger_name', 'eaten'], [req.body.burger_name, req.body.eaten], (result) => {
+    burger.insertOne(['burger_name', 'devoured'], [req.body.burger_name, req.body.devoured], (result) => {
         // Send back the ID of the new quote
         res.json({ id: result.insertId });
     });
@@ -27,10 +27,10 @@ router.post('/api/burgers', (req, res) => {
 router.put('/api/burgers/:id', (req, res) => {
     const condition = `id = ${req.params.id}`;
     // console.log('condition', condition);
-    // Update the status of eaten
+    // Update the status of devoured
     burger.updateOne(
         {
-            eaten: req.body.eaten,
+            devoured: req.body.devoured,
         },
         condition,
         (result) => {
