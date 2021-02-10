@@ -1,6 +1,6 @@
 # burger
 ## Description
-  It makes a burger application that you can add and take away burgers from
+  It makes a burger application that you can add and take away burgers from the list of ones you want to eat vs. the ones you have eaten.
   ## Table of Contents
   * [URL](#URL)
   * [Installation](#Installation)
@@ -10,6 +10,7 @@
   * [Questions](#Questions)
   ## URL
   https://bushongburger.herokuapp.com/
+  <br>
   https://github.com/danbushong/burger
 
 
