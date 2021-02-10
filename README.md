@@ -15,10 +15,14 @@
 
   ## Installation
   npm install, npm install express, npm install express-handlebars, npm install yarn, npm init -y
+
   ## Usage
   Fun burger application to play with
+
   ## Screenshot
   <img src=bushongBurgers.jpg>
+  <br>
+
   ## License
   ![Badge](https://img.shields.io/badge/license-MIT-green)<br>
   Copywrite (c) 2021 dan bushong
