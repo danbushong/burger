@@ -2,29 +2,13 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/danbushong/burger.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/danbushong/burger/issues"
-  },
-  "homepage": "https://github.com/danbushong/burger#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "heroku": "^7.47.12",
-    "mysql": "^2.18.1",
-    "router": "^1.3.5",
-    "yarn": "^1.22.10"
-  },
-  "devDependencies": {}
+    "express": "^4.16.4"
+  }
 }
