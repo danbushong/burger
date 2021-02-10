@@ -2,6 +2,8 @@
 
 <h2>Burgers To Eat!</h2>
 
+
+
 <ul>
   {{#each burgers}}
   {{#unless devoured}}
@@ -26,6 +28,10 @@
   <div class="form-group">
     <label for="burg">Burger Name:</label>
     <input type="text" id="burg" name="name">
+  </div>
+
+  <div class="col" id="burger-png">
+    <img src="/assets/img/burger.png" class="text-center" id="png" width="200" height="300">
   </div>
 
   <div class="form-group">
